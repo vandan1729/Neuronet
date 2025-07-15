@@ -2,9 +2,10 @@ server:
   port: 8888
 
 spring:
+  profiles:
+    active: native
   cloud:
     config:
       server:
-        git:
-          uri: https://github.com/vandan1729/Neuronet
-          search-paths: config_server
+        native:
+          search-locations: file:/config-repo

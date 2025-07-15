@@ -8,7 +8,7 @@
 		<version>3.5.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>user_service</groupId>
+	<groupId>com.neuronet</groupId>
 	<artifactId>user_service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>user_service</name>
@@ -45,7 +45,7 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
-			<version>4.1.2</version>
+			<version>4.3.0</version>
 		</dependency>
 
 		<dependency>

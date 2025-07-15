@@ -1,4 +1,4 @@
-package user_service.user_service;
+package com.neuronet.user_service;
 
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.beans.factory.annotation.Value;
@@ -13,7 +13,7 @@ public class UserController {
     @Value("${custom.message:Default message}")
     private String message;
 
-    @GetMapping("/api/users/test/")
+    @GetMapping("/api/users/test")
     public Map<String, Object> testUser() {
         return Map.of(
             "id", 1,
