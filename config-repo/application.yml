@@ -1,5 +1,13 @@
 server:
   port: 0
+
 logging:
   level:
-    root: INFO
+    root: DEBUG
+
+spring:
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:///app/config-repo
